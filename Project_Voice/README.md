@@ -34,6 +34,7 @@ context=incoming-call
    
 =============================================   
 ;Configuring /etc/asterisk/extensions.conf:add two context outgoing-call and incoming call
+
 =============================================
 
 
@@ -71,6 +72,7 @@ same=>n,AGI(agi://127.0.0.1/hello.agi)
 ;edit /etc/asterisk/manager.conf and add the following lines
 
 ;follow http://ofps.oreilly.com/titles/9781449332426/asterisk-AMI.html for further details
+
 =============================================
 
 [general]
@@ -103,6 +105,7 @@ write=system,call,log,verbose,agent,command,user,all
 ;edit /etc/asterisk/logger.conf : This is done to log information about asterisk server.Suppose your project location is 
 
 ;/home/user/Project_Voice/logFiles/asteriskLog. add the following line in logger.conf
+
 =============================================
 
 /home/user/Project_Voice/logFiles/asteriskLog => notice,warning,error,dtmf
@@ -110,6 +113,7 @@ write=system,call,log,verbose,agent,command,user,all
 
 =============================================
 INSTALLING A SIP PHONE
+
 =============================================
 
 install any sip phone.This is a way to install twinkle
@@ -123,6 +127,7 @@ install any sip phone.This is a way to install twinkle
 
 =============================================
 INSTALLING GOOGLE TTS
+
 =============================================
   follow this Link:https://github.com/zaf/asterisk-googletts
    
@@ -131,24 +136,27 @@ INSTALLING GOOGLE TTS
 
 =============================================
 INSTALL ANT
-  
+
+=============================================
   sudo apt-get -u install ant
   
   set environment variable ANT_HOME JAVA_HOME
   
-  http://ant.apache.org/manual/install.html
-=============================================
+  follow this link:http://ant.apache.org/manual/install.html
+
 
 
 =============================================
 INSTALLING JDK IN UBUNTU
  
- Follow this:http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
+Follow this:http://www.wikihow.com/Install-Oracle-Java-on-Ubuntu-Linux
+
 =============================================
 
 
 =============================================
 SOURCE CODE CONFIGURATION AND DEPENDENCY
+
 =============================================
 
 build.xml creates a jar of the module
@@ -158,10 +166,11 @@ build1.xml creates a "fat" jar of the module i.e that jar will include all jars 
 AlertMessage,AlertRegistration,Database are non-runnable jar(no main function)
 
   
-  
+============================================= 
 IMPORTANT-DEPENDENCY:AlertRegistration,Scheduler,AudioPlayer require hibernate jars.Due to size concern they are not included in source code.
-   
-=============================================
+  
+============================================= 
+
 Copy /Database/lib/Database to
     
 1.AlertRegistration/lib
@@ -169,10 +178,9 @@ Copy /Database/lib/Database to
 2.Scheduler/lib
     
 3.AudioPlayer/lib
-=============================================
+
 
 =============================================
-
 Steps to run the project(to be followed in the order as described)
 
 =============================================
