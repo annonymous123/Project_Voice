@@ -89,6 +89,7 @@ AlertMessage,AlertRegistration,Database are non-runnable jar(no main function)
 Steps to run the project(to be followed in the order as described)
 
 1.Database:Edit /resource/hibernate.cfg.xml according to your requirement.Set username,Password and url
+
 2.ant compile jar
 3.IMPORTANT:Copy the compiled jar to Scheduler/lib,AudioPlayer/lib,AlertRegistration/lib
 
