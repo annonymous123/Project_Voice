@@ -1,4 +1,3 @@
-l
 2013-07-30 04:17:07 [main] INFO  org.asteriskjava.fastagi.DefaultAgiServer  - Listening on *:4573.
 2013-07-30 04:17:42 [main] INFO  org.asteriskjava.fastagi.DefaultAgiServer  - Received connection from /127.0.0.1
 2013-07-30 04:17:42 [main] INFO  org.asteriskjava.fastagi.DefaultAgiServer  - Thread pool started.
