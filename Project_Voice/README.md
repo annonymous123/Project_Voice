@@ -1,5 +1,4 @@
-
-View The Raw version for clarity
+View The Raw version(https://raw.github.com/annonymous123/Project_Voice/master/Project_Voice/README.md) for clarity
 
 INSTALLING AND CONFIGURING ASTERISK
       To install asterisk follow this link http://blogs.digium.com/2012/11/14/how-to-install-asterisk-11-on-ubuntu-12-4-lts/
