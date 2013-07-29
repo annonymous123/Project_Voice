@@ -8,6 +8,8 @@ Ensure to  use make menuselect while installing asterisk
    
 select format_mp3.so from make menuselect:it will load module to play mp3 files.
 
+Sample sip.conf,manager.conf,extensions.conf,logger.conf are present in asteriskConf Folder
+
 =============================================
 
 ;Configuring /etc/asterisk/sip.conf:Create a SIP user SIP/1000abc that have context=incoming-call
