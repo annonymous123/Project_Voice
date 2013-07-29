@@ -1,3 +1,6 @@
+
+View The Raw version for clarity
+
 INSTALLING AND CONFIGURING ASTERISK
       To install asterisk follow this link http://blogs.digium.com/2012/11/14/how-to-install-asterisk-11-on-ubuntu-12-4-lts/
 	Ensure to  use make menuselect while installing asterisk 
