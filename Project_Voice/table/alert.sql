@@ -32,7 +32,7 @@ CREATE TABLE `alert` (
   `isExecuted` char(1) DEFAULT NULL,
   `retryCount` int(11) DEFAULT NULL,
   `serviceInfo` varchar(60) DEFAULT NULL,
-  PRIMARY KEY (`aid`)
+  CONSTRAINT pk_Alert PRIMARY KEY (aid,alertType)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
